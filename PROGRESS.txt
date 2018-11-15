@@ -1,0 +1,317 @@
+Create a TODO List ==================================================== DONE 12/10/15
+REFACTORING:    Rename difficulty ->randomness ======================== DONE 12/10/15
+REFACTORING:    Rename flavor ->pressuremode ========================== DONE 12/10/15
+REFACTORING:    Rename Menu class and button -> OptionsMenu =========== DONE 12/10/15
+EFFECT:         Screenwide effect - persistent:ascending bubbles ====== DONE 12/10/15
+GUI:            Redo Options description strings ====================== DONE 12/10/15
+REFACTORING:    Implement a global texture manager ==================== DONE 13/10/15
+REFACTORING:    Implement a global underscreen effect ================= DONE 13/10/15
+GAMEPLAY:       Implement next Ball generation ======================== DONE 13/10/15
+GUI:            Indicate time left till auto  ball shot =============== DONE 14/10/15
+GUI:            Indicate the ball-limit line ========================== DONE 14/10/15
+GUI:            Implement on screen off or home button on Android ===== DONE 14/10/15
+GUI:            Implement screensaver auto-pause mode ================= DONE 14/10/15
+DEBUG:          Implement logging to file ============================= DONE 14/10/15
+GAMEPLAY:       Implement Launch and Press timers ===================== DONE 14/10/15
+GAMEPLAY:       TimeConstraint level indicator InGame ================= DONE 14/10/15
+RESPONSIVENESS: Automatically Load High or Low Resolution Images ====== DONE 15/10/15
+COMPATIBILITY:  Fixed integer rounding issue for older Android vs ==== DONE 16/10/15
+GUI:            Finalize well border images ========================== DONE 16/10/15
+GUI:            Indicate time left till press plate lowering ========= DONE 17/10/15
+GUI:CONTROL:    Fix Button Behavior for touch screens ================ DONE 17/10/15
+COMPATIBILITY:  Fixed pausing fault Android on screen off-Home-power== DONE 17/10/15
+GAMEPLAY:       Implement Ball trajectory indication - aiming aid ==== DONE 17/10/15
+GAMEPLAY:       Tap on next ball to use that instead (limited times) = DONE 18/10/15
+GAMEPLAY:       Implement Level Statistics Logging =================== DONE 19/10/15
+GAMEPLAY:       Store last level achieved per setting ================ DONE 19/10/15
+GAMEPLAY:       Fix randomness issues (rand modulo problem) mt19937 == DONE 19/10/15
+COMPATIBILITY:  Incorporated C++11 support , in Android project ====== DONE 19/10/15
+RELEASE:        Create new Levels          --------------------------- +16  20/10/15
+EDITOR:         Improve EDITOR - browse through levels =============== DONE 20/10/15
+EDITOR:         Improve EDITOR - Click to add/remove balls =========== DONE 20/10/15
+GAMEPLAY:       Next ball continues to launchpoint after launching === DONE 22/10/15
+GAMEPLAY:       Top plate comes down just after ball anchoring ======= DONE 22/10/15
+EFFECT:         Screenwide effect - transient : Nova flash =========== DONE 22/10/15
+GAMEPLAY:       Improved collision detection and efficiency,
+                Speed can be of any value, framerate very low
+                no missed collisions ================================= DONE 26/10/15
+GAMEPLAY:       Improved BallIndex stopping point - stops at collision DONE 26/10/15 
+POWER :         Minimize work done when Hibernating =====INVALID====== DONE 26/10/15 
+GAMEPLAY:       Fix Accidental ball shooting after autoshoot ========= DONE 26/10/15 
+EDITOR:         Read and save Binary level files====================== DONE 27/10/15 
+RELEASE:        Create new Levels          --------------------------- +12  28/10/15
+GAMEPLAY:       Show Level and score, complete scoring system ======== DONE 28/10/15 
+REFACTORING:    BallInfo became a class. ============================= DONE 29/10/15
+REFACTORING:    Ballinfo has a list of effect pointers per ball======= DONE 29/10/15
+REFACTORING:    Move common functionality to a base screenEffect class DONE 30/10/15
+REFACTORING:    Make a localized efect base class ==================== DONE 30/10/15
+EFFECT:         Ball effect - transient ExplosionFlashEffect ========= DONE 30/10/15
+EFFECT:         Ball effect - persistent: touch driven ShineEffect === DONE 01/11/15
+EFFECT:         Ball effect - persistent: SparksEffect base class ==== DONE 03/11/15
+EFFECT:         Ball Effect - persistent: FuseEffect ================= DONE 04/11/15
+EFFECT:         Ball Effect - persistent: ExplosionSparksEffect ====== DONE 04/11/15
+SPEED:          Implemented sine table and trig functions ============ DONE 05/11/15
+RELEASE:        Experimental Level Generator =========================      06/11/15
+RELEASE:        New 64 Levels- randomly generated ====================      06/11/15
+PROFILING:      Basic profiling stats ================================ DONE 07/11/15
+GRAPHICS:       New darker graphics set ============================== DONE 08/11/15
+STATISTICS:     Compact Statistics - player interesting stats only === DONE 10/11/15
+INGAME:CONTINUE:Implement and test Save and Continue functionality === DONE 10/11/15 
+INGAME:         Ball Score for popped balls ========================== DONE 10/11/15
+INFRASTRUCTURE: Added external UPS battery to prolong autonomy ------- DONE 11/11/15
+GUI-CONTROLS:   Classes ScrollPage PageRing PageHandler,ManhattanRing= DONE 11 - 15/11/15
+GUI-CONTROLS:   ManhattanPageHandler and AxialPageHandler complete === DONE 17/11/15
+MUSIC:          Research editing and addition of royalty free music == DONE 18/11/1
+LEVELS:         Level Generator Improving, Levels are always the same= DONE 18/11/15
+CONTROLS:       BaseTexture Button, GlassButton Added ================ DONE 19/11/2015
+CONTROLS:       Fixed handled event reporting by hovered only button = DONE 19/11/2015
+INGAME-STATES:  Isolated PLAY_MODE and EDITOR,PreGame with countDown = DONE 21/11/15
+SAVED STATE:    Speedup of file I/O process, state file has level 1st= DONE 21/11/15
+REFACTORING:    InGame friend functions RawLevel (draw, load) ======== DONE 22/11/15
+INGAME-STATES:  new GameMenu state, with accompanying functions ====== DONE 22/11/15
+GUI:            Setup and Test Common button Game menu functionality = DONE 23/11/15
+GUI:            Implement Level button showing level miniature ======= DONE 23/11/15
+GUI:            Implement and Finalize GameMenu subState of InGame === DONE 23/11/15
+MUSIC:          Global non-stopping music, with appropriate checks === DONE 24/11/15
+CONTROLS:       Implement PseudoManhattan Ring, and pageHandler ====== DONE 01/12/15
+GUI:            Implement LevelPage class ============================ DONE 02/12/15
+GUI:            Implement LevelSelector class ======================== DONE 03/12/15
+GUI:            Correct button behavior for scrolling pages ========== DONE 04/12/15
+GUI:LEVEL:------Implement Select Level screen ======================== DONE 04/12/15
+PERFORMANCE:    Static ball,shine and well generated image optimizationDONE 05/12/15
+SKINS:          Light/Patterned Skins added ========================== DONE 06/12/15
+GUI: SKINS:     Added Skin selection Page to options menu. Skins work. DONE 06/12/15
+GUI: SKINS:     Trimming, Tweaking appearance of skin files, etc       DONE 09/12/15
+GUI:            Added new button sets. =============================== DONE 09/12/15
+GAMEPLAY:       Collision slack to facilitate 'sliding into or through'DONE 10/12/15
+GAMEPLAY:       Fixed BallSwitch -instant launch bug ================= DONE 10/12/15
+GAMEPLAY:       Match number introduction and setting in Options ===== DONE 10/12/15
+OPTIONS:        Aiming Aid setting - setting in Options - GamePlayPage DONE 10/12/15
+REFACTORING:    Improvements in BaseButton regarding ScrollPages ===== DONE 10/12/15
+SETTINGS:       Saving configuration file ============================ DONE 10/12/15
+ARCHIVE:        Created PuzzBob Archive with monthly versions ======== DONE 11/12/15
+PROFILER:       Created Profiler Class, tracking macros, enabled RTTI= DONE 14/11/15
+GAMEPLAY:       Added chromeBall, drops all balls hit, up to a wall == DONE 15/12/15
+EFFECT:         Ball effect local : orbiting pixies ================== DONE 16/12/15
+OPTIONS:        GamePlay options for using Bombs and ChromeBalls, trim DONE 16/12/15
+RELEASE:        Improved Level Generator ============================= DONE 17/12/15
+RELEASE:        Created RandomLevel Version with selectable miniatures DONE 17/12/15
+RELEASE:        Created Demo Version with limited number of levels === DONE 17/12/15
+RELEASE:        Improved Level Generator ============================= DONE 18/12/15
+EFFECTS:        Improved continuity between current and next ball===== DONE 18/12/15
+EFFECTS:        Improved Pixies Effect appearence and flow =========== DONE 18/12/15
+RELEASE:        Created Promo Image ================================== DONE 19/12/15
+GAMEPLAY:       Finalized Chrome ball probability calculation ======== DONE 19/12/15
+PERFORMANCE:    Texture manager can get requests for resized images == WITHDRAWN
+RENDERING:      Improved render to texture for transparent objects === DONE 19/12/15
+PERFORMANCE:    Creating Resized images for all ingame states ======== WITHDRAWN
+RELEASE:        TextureManager vector now has variable length ======== DONE 19/12/15
+OPTIONS:EFFECTS:Toggle Shine, Translucent BGs, Background Effect ===== DONE 21/12/15
+IMPROVEMENT:    BaseTexture fromText accepts wanted width to word wrap DONE 22/12/15
+GAMEINFO:       Show stats and best score, time, shots while playing== DONE 22/12/15
+OPTIONS: STATS: Toggle showing GAME INFO on play and pause screens === DONE 22/12/15
+STATISTICS:     Keeping best time in milliseconds ==================== DONE 22/12/15
+STATISTICS:     Corrected win[] bug ================================== DONE 23/12/15
+RELEASE:        11 new levels ======================================== DONE 23/12/15
+IMPROVEMENT:    GlassButtons resizing caption if too big ============= DONE 23/12/15
+GAMEPLAY:       Accurate BallIndex with ghost Ball showing placement = DONE 23/12/15
+RELEASE:        Pay the Entry Fee for Google Play ==================== DONE 24/12/15
+REFACTORING:    GameSettings Class =================================== DONE 27/12/15
+GUI:PLAYER:     Implement Select Player browser ====================== DONE 2/1/16
+GUI:PLAYER:     Implement Keyboard for Player name entering ========== DONE 2/1/16
+GUI:PLAYER:     Implement [New Player] Screen ======================== DONE 3/1/16
+PLAYER PROFILES:Save , create, delete player profiles ================ DONE 3/1/16
+GAME SETTINGS:  Save and read settings for each user ================= DONE 3/1/16
+STATISTICS:     Keep progress stats for every user =================== DONE 3/1/16
+REFACTORING:    Added debug record macro ============================= DONE 4/1/16
+INGAME:         CurrentBall is attached to the grid, and created anew  DONE 4/1/16
+DEBUGGING:      Fixed ballIndex collision on last element crash bug == DONE 4/1/16
+DEBUG:          Patched touch screen fingerUp event on drag-exit screenDONE 10/1/16
+GRAPHICS-INGAME: Added corner elements to the well.=================== DONE 10/1/16
+GRAPHICS-INGAME: Retouch some pics fo resolution uniformity=========== DONE 10/1/16
+INGAME:         EndGame substate creation and trimming =============== DONE 15/1/16
+INGAME:         Finalized Endgame ==================================== DONE 17/1/16
+INGAME:         Fixed bug with state saving, improved state loading=== DONE 19/1/16
+MUSIC:          Music pauses when application enters background======= DONE 19/1/16
+INGAME:         Implemented Pause and Quit Screens =================== DONE 19/1/16
+ABOUT:          Implemented Scrolling About Screen =================== DONE 20/1/16
+SKINS:          Custom text colors for each skin ===================== DONE 22/1/16
+RAM:            Purging global texture manager after every skin change DONE 23/1/16
+PROFILES:       Fixed stat saving bug after profile browsing           DONE 23/1/16
+OPTIM:INGAME:   Ball index has a static image ======================== DONE 25/1/16
+OPTIM:INGAME:   Static Image generation speedup - images not deleted== DONE 25/1/16
+OPTIM:INGAME:   Endgame and Pause screens have aggregate message image DONE 25/1/16
+BUGFIX:         BallSwitch launching on phone when using thumb ======= DONE 27/1/16
+CONTROL:        BaseSlider Implemented and tested functionality ====== DONE 27/1/16
+OPTIONS:        Added a music volume bar for testing, saving volume=== DONE 27/1/16
+INGAME:         BallIndex Improved on ChromeBall ===================== DONE 28/1/16
+GRAPHICS:       Bug on some samsung devices displaying red tint fix=== DONE 4/2/16
+PROFILER:       Better stats, raw time, times called ================= DONE 6/2/16
+COPYPROTECT:    Hash functions for strings and images ================ DONE 6/2/15
+COPYPROTECT:    Watermark map in TextureManager ====================== DONE 6/2/15
+GAMEPLAY:       Added Leveler ball, drops lines under anchoring point= DONE 8/2/16
+GAMEPLAY:       Added Colorshifter ball, adopts color of max chain==== DONE 8/2/16
+GAMEPLAY:       Added Painter ball, with the first-touched color====== DONE 8/2/16
+GAMEPLAY:       Finalized andd improved appearence of special balls=== DONE 9/2/16
+EFFECT:         Improved Sparks effect - faster, more visible========= DONE 9/2/16
+EFFECT:         Balls dropped by explosion are blown & bounce on walls DONE 9/2/16
+EFFECT:         Ball effect - transient : flash ====================== DONE 9/2/16
+EFFECT:         Balls dropped by matching are also launched=========== DONE 11/2/16
+OPTIONSGAMEPLAY:Added use painter, Shifter and leveler ball switches = DONE 12/2/16
+COPY PROTECTION:Imported licensing library in ant===================== DONE 13/2/16
+OPTIONS MENU:   Match number buttons are behaving correctly=========== DONE 24/2/16
+EXPERIMENTAL:   Entered GL_DOUBLEBUFFER in basefuncs
+EXPERIMENTAL:   Removed PRESENT_VSYNC from renderer in basefuncs
+OPTIONS:        Added option for vsync on/off - ineffective ========== DONE
+OBFUSCATION:    App does not crash after obfuscation ================= DONE 28/2/16
+GOT TWO ADDITIONAL DEBUG PHONES
+TUNING :        Fixed profiler for better stats ====================== DONE 29/2/16
+                tuned AirBubbles ===================================== DONE 29/2/16
+                tuned SparksEffect =================================== DONE 29/2/16
+                background color shifting set to MOD instead of ALPHA= DONE 1/3/16
+                added composite images================================ DONE 2/3/16
+                added lowEndMachine indicator and behavior =========== DONE 2/3/16
+GRAPHICS:       Fixed alpha channel related bug in composite images=== DONE 3/3/16
+EFFECT:         TrailsEffect ========================================= DONE 4/3/16
+OPTIONS:        Refactored EffectsPage =============================== DONE 6/3/16
+OPTIONS:        Added Trails setting ================================= DONE 6/3/16
+BUGFIX:         SetCaption in BaseButton correctly using alpha ======= DONE 6/3/16
+FEATURES:       Using stats and phase shifting made permanent ======== DONE 6/3/16
+PROFILING:      RenderPresent only from StateMachine-Frame count Separated  6/3/16
+OPTIMIZATION:   BallIndex is rendered completely in aggregate ======== DONE 7/3/16
+OPTIMIZATION:   Trails rendered only when an effect is active ======== DONE 7/3/16
+HACK PROTECTION:Android version is checking classes.dex integrity ==== DONE 10/3/16
+EFFECT OPTIONS :Enable/disable screen flashing on power ball explosion DONE 15/3/16
+LICENCE CHECK:  Added experimental license checking in puzzbob.java=== DONE 16/3/16
+RELEASE:        Released Alpha version 0.96a on Google Play ========== DONE 16/3/16
+LICENCE CHECK:  Native code and java thread check licence ============ DONE 17/3/16
+RELEASE:        Generated alpha list and promotion and sent invitation DONE 18/3/16
+RELEASE:        New application Icon ================================= DONE 19/3/16
+RELEASE:        Research optimal way to release a demo version======== DONE 19/3/16
+RELEASE:        Demo and hacked/unlicensed versions behave alike====== DONE 19/3/16
+LICENCE CHECK:  Integrity and licence checks happen in tweaked times== DONE 19/3/16
+LICENCE CHECK:  Storing previous positive check in stats as bit======= DONE 19/3/16
+BUGFIX:         Pagehandler insensitivity to taps fixed.============== DONE 20/3/16
+IMPROVEMENT:    Pagehandler scroll trigger length improved.=========== DONE 20/3/16
+BUGFIX:         Sparks appearing at screen topleft corner on android = DONE 21/3/16
+BUGFIX:         Improved trails effect appearence ==================== DONE 21/3/16
+REFACTORING:    Renamed vsync option to full effect detail============ DONE 21/3/16
+GAMEPLAY:       Adjusted power ball probabilities ==================== DONE 21/3/16
+GRAPHICS:       Created new ball: Timestop image ===================== DONE 21/3/16
+BUGFIX:         Fixed potential bug,removed excessive checks on pause  DONE 24/3/16
+ANTIHACK:       Scrambled strings for java calls through JNI ========= DONE 24/3/16
+EFFECTS:        Rolling BG colors using max color variation variable = DONE 24/3/16
+PROFILES:       Removed unnecessary buttons from profile pages ======= DONE 24/3/16
+ENDGAME:        Added new messages about powerBalls and summoning ==== DONE 24/3/16
+GUI:            Renamed Skins to Themes ============================== DONE 24/3/16
+GUI:            Added text legends for ingame stats ================== DONE 25/3/16
+REFACTORING:    Removed boolean table from levelstats, added int flags DONE 25/3/16
+RELEASE:        Inserted version number of levelstats file in #levels  DONE 25/3/16
+PROGRESSION:    Infrastructure in LevelStats to support unlockables    DONE 25/3/16
+PROGRESSION:    Working unlockables - ball preview on endgame ======== DONE 26/3/16
+PROGRESSION:    Endgame screen shows new messages when unlocking ===== DONE 26/3/16
+PROGRESSION:    Adjusted unlockable ball probabilities based on status DONE 26/3/16
+GUI:            Profile Helper message =============================== DONE 26/3/16
+BUGFIX:         Fixed levelstats bug introduced by versioning ======== DONE 26/3/16
+BUGFIX:         Fixed some transparency issues, textures using alpha = DONE 26/3/16
+BUGFIX:         Fixed not loading default gamesettings on new profile  DONE 26/3/16
+RELEASE:        Version changed to 0.97
+GAMEPLAY:       Designed ball and timestop summoning screen            DONE 27/3/16
+GAMEPLAY:       Designed ball and timestop summoning screen            DONE 27/3/16
+OPTIMIZATION:   Static game area image for pause and end screens       DONE 27/3/16
+BUGFIX:         Fixed pause screen not showing static imegages Andr.   DONE 27/3/16
+GAMEPLAY:       Summoning infranstructure- saving and registering      DONE 28/3/16
+GAMEPLAY:       Screen flash and background change on timestop ok      DONE 28/3/16
+GAMEPLAY:       Timestop first draft works =========================== DONE 28/3/16
+GAMEPLAY:       Summon screen , testing ============================== DONE 29/3/16
+GAMEPLAY:       Summoning icon/ preview and selection mechanics ====== DONE 30/3/16
+GAMEPLAY:       Summoning and timestop is complete and inhouse tested  DONE 30/3/16     0.981
+RELEASE:        Created 21 more Levels =============================== DONE 1/4/16
+RELEASE:        Experimented with various well dimensions ============ DONE 2/4/16
+GAMEPLAY:       Added True random and Chaos difficulty levels ======== DONE 4/4/16      0.982
+GAMEPLAY:       Fixed an omission in InGame::findBallCollisions ====== DONE 5/4/16
+RENDERING:      SetRenderTargets keeps target stack ================== DONE 5/4/16
+OPTIMIZATION:   PageRing assigns unique ID to ScrollPages              DONE 5/4/16
+OPTIMIZATION:   PageHandler keeps 2 buffers, caching visible pages     DONE 5/4/16
+OPTIMIZATION:   Texture keeps track of drawing to buffer,CHANGES ALPHA DONE 5/4/16
+GAMESETTINGS:   Keeping a modulated bg color for future use ========== DONE 6/4/16
+UNLOCKABLES:    Decided on final unlockables and criteria ============ DONE 7/4/16
+LEVELSTATS:     Changed to accomodate new unlockables ================ DONE 8/4/16
+INGAME:         New stats kept and saved state data ================== DONE 8/4/16
+LEVELSTATS:     New methods to keep, check and return unlockable Info DONE 9/4/16
+ENDGAME:        Altered behavior to accomodate more than one unlocked  DONE 10/4/16
+ENDGAME:        New unlocked item names and descriptions ============= DONE 10/4/16
+LEVELSTATS:     Tests and corrections, unlockable and summon strings   DONE 11/4/16
+OPTIONS:        chaos,true random, match number are locked =========== DONE 11/4/16
+BUTTONS:        disabled buttons are transparent by half ============= DONE 11/4/16
+UNLOCKABLES:    Testing and correction of data storing and updating == DONE 12/4/16
+PROGRESSINFO:   Summons and unlockable information browsing is correct DONE 13/4/16
+WELL_WIDTH:     WellWidth is settable and functional, levels moved==== DONE 14/4/16
+LEVELGENERATORS:New level Generation algorithms , better quality levelsDONE 15/4/16
+INGAME:         Endline improved ===================================== DONE 16/4/16
+INGAME:         LowerTopPlate drops many rows at once ================ DONE 16/4/16
+LEVELSTATS:     Fixed updating stats on loading ====================== DONE 16/4/16
+TESTING:        Created EVERYTHING profile with all unlocks ========== DONE 16/4/16 0.987
+INGAME:         Adjusted PAINTER power as MAX_LEVEL_BALLS/12 ========= DONE 16/4/16
+LEVELSTATS:     Stats are now independent for individual area sizes == DONE 17/4/16
+LEVELSTATS:     Changed unlockable unlocking criteria ================ DONE 18/4/16
+PROFILEBROWSER: Changed presented info, multi sizes, unlockables shown DONE 19/4/16
+GAMESETTINGS:   Added checks for unlockable settings not valid(hacked) DONE 20/4/16
+PROGRESSINFO:   Added images for unlockables in progress pages ======= DONE 20/4/16
+ENDGAME:        Showing stars for beaten Limits on new record ======== DONE 20/4/16
+GAMESETTINGS:   Added option for showing stars on beaten stats ======= DONE 20/4/16
+OPTIONSMENU:    Refactored InfoPage and added Beaten stats switch ==== DONE 20/4/16
+PROGRESSINFO:   Added images for unlockable modes in progress pages == DONE 21/4/16
+LEVELBUTTON:    Added Stars showing beaten stats in levelSelector ==== DONE 21/4/16 0.990
+BASEBUTTON:     Changed state changing, added function for reporting = DONE 22/4/16
+SCROLLPAGE:     Improved page content change detection- better updates DONE 22/4/16
+BEATENSTATS:    Finalized star form and appearance =================== DONE 22/4/1
+SKINS:          Created Dark2 skin =================================== DONE 23/4/1
+SKINS:          Changed Dark skin to better looks ==================== DONE 24/4/1
+SKINS:          Finalized Dark2 skin ================================= DONE 24/4/1
+OPTIONS:        Added unlockable themes page. adjusted skinPage ====== DONE 24/4/16
+SKINS:          Created geometric 2, light 2 and pattern 2 themes ==== DONE 26/4/16
+SKINS:          Created thumbnails  for all themes =================== DONE 26/4/16
+OPTIONS:        Unlock_themes page appears only when one is unlocked = DONE 26/4/16
+SKINS:          Moved common balls to universal, created new hashes == DONE 27/4/16
+SIZE:           Reduced APK size by 2.5 MB =========================== DONE 27/4/16
+RELEASE:        Alpha version 0.991 is out =========================== DONE 27/4/16 0.991
+GAMEPLAY:       Added BLOCK balls ==================================== DONE 27/4/16
+GAMEPLAY:       Generating blocks ==================================== DONE 28/4/16
+GAMEPLAY:       Fixed collision detection issue, reflector mechanix ok DONE 29/4/16
+UNLOCKABLES:    Blocked skin-change on saved state cheating ========== DONE 29/4/16
+UNLOCKABLES:    IFDEF'D unlockable game modes and editor ============= DONE 2/5/16
+EDITOR:         Made much easier to draw and erase =================== DONE 2/5/16
+LEVELS:         created 31 levels (8)================================= DONE 2/5/16
+LEVELS:         created 10 levels (8)================================= DONE 3/5/16
+SUMMON MENU:    Changed wording to make summoned item more obvious === DONE 3/5/16
+INGAME:         Fixed summon icon not correct for painters =========== DONE 3/5/16
+OPTIONS:        Music volume setting saved only on ok ================ DONE 3/5/16
+PERFORMANCE:    Music is paused when volume is 0 until set to >0 ===== DONE 3/5/16
+EDITOR:         Added palette at screen borrom ======================= DONE 5/5/16
+LEVELS:         +26 levels for dim 8 (140)============================ DONE 6/5/16
+AUTO LEVELS:    Added bottom contour to plasma generator ============= DONE 6/5/16
+EDITOR:         Fixed palette selection issue ======================== DONE 9/5/16
+LEVELS:         +22 levels for dim 8 (162) =========================== DONE 9/5/16
+EDITOR:         Ability to shift edited level left/right ============= DONE 10/5/16
+LEVELS:         +10 levels for dim 8 (172) =========================== DONE 14/5/16
+LEVELS:         +9 levels for dim 8 (181) ============================ DONE 16/5/16
+LEVELS:         +22 levels for dim 8 (203) =========================== DONE 20/5/16
+PROJECT LACKS ONLY SFX AND LEVELS. PLANNING TO RELEASE IN PRODUCTION SOON
+SOUND EFFECTS:  laying groundwork for incorporating sfx ============== 30/5/16
+SOUND EFFECTS:  sound efect engine, some sound effects added========== 1-5/6/16
+RELEASE:        Game Released in production                             10/6/16
+RELEASE:        Game Released v 1.0 as aFREE game                       20/12/16
+GUI:            Added "Swipe to scroll" hint on PageHandler - untested  3/02/17
+OPTIONS:        Reordered menu pages
+OPTIONS:        Added showSwipeHint switch in gameinfo page
+GAMEPLAY:       Set unlockable limits lower to increase sence of completion 4/2/17
+RELEASE:        Released v. 1.001                                           4/2/17
+MUSIC:          Changed music scores                                        25/2/17
+EFFECTS:        Optimized list of sparks in spark effects                   25/2/17
+RELEASE:        Released v.1.003                                            25/2/17
+OPTIONS:        Added option for gameplay setting override by 'CONTINUE'    2/3/17
+GAMEPLAY:       If override setting is not set and pressure differs,
+                [ CONTINUE ] restarts the level rather than load            2/3/17
+OPTIONS:        Reordered menu pages                                        2/3/17
+RELEASE:        Released v.1.005                                            2/3/17
